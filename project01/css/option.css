@@ -1,0 +1,88 @@
+input[type="checkbox"] {
+    display: none;
+}
+
+.container {
+    width: 393px;
+    height: 852px;
+    background-color: #ffecec;
+    margin: auto;
+    overflow: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.nav {
+    margin: 0 auto;
+    width: 366px;
+    height: 55px;
+    align-content: center;
+}
+
+.contents {
+    margin-top: 120px;
+    padding: 15px;
+}
+
+.contents > div {
+    padding: 20px 0;
+    border-bottom: solid 3px #e9e8e8;
+}
+
+.contents ul li {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.contents ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+
+.contents ul li img {
+    width: 24px;
+    height: 24px;
+}
+
+.section1 > ul > li > div > label {
+    display: block;
+    background-color: #e3e2df;
+    width: 40px;
+    height: 20px;
+    border-radius: 30px;
+
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.section1 > ul > li > div > label > div {
+    position: absolute;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border: solid 2px black;
+    border-radius: 50%;
+    right: 20px;
+
+    transition-property: right;
+    transition-duration: 0.5s;
+}
+
+.section1 > ul > li > div > label,
+.section1 > ul > li > div > label > div {
+    cursor: pointer;
+}
+
+.section1 > ul > li > input[type="checkbox"]:checked ~ div > label {
+    background-color: #05ff65;
+}
+
+.section1 > ul > li > input[type="checkbox"]:checked ~ div > label > div {
+    right: 0;
+}

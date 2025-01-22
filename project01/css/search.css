@@ -1,0 +1,50 @@
+.container {
+    width: 393px;
+    height: 852px;
+    background-color: #ffecec;
+    margin: auto;
+}
+
+.nav {
+    margin: 0 auto;
+    width: 366px;
+    height: 55px;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav > input {
+    width: 100%;
+    border: none;
+    background-color: #ffecec;
+    padding: 2px;
+}
+
+.contents {
+    background-color: rgb(172, 157, 187);
+    padding: 5px;
+}
+
+.date,
+.category {
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #ffbcbc;
+}
+
+.date_search,
+.category_choose {
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+    border-radius: 7px;
+    padding: 0.3rem 1.2rem;
+}
+
+.category_choose > input {
+    width: 25px;
+    height: 25px;
+}
