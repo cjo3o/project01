@@ -1,3 +1,6 @@
+body {
+    background-color: #ccc;
+}
 input[type="checkbox"] {
     display: none;
 }
@@ -5,7 +8,7 @@ input[type="checkbox"] {
 .container {
     width: 393px;
     height: 852px;
-    background-color: #ffecec;
+    background-color: white;
     margin: auto;
     overflow: hidden;
     overflow-y: scroll;
@@ -52,24 +55,23 @@ input[type="checkbox"] {
 
 .section1 > ul > li > div > label {
     display: block;
-    background-color: #e3e2df;
-    width: 40px;
-    height: 20px;
+    background-color: lightgray;
+    width: 43px;
+    height: 25px;
     border-radius: 30px;
-
     transition-property: background-color;
     transition-duration: 0.5s;
 }
 
 .section1 > ul > li > div > label > div {
     position: absolute;
-    background-color: white;
+    background-color: whitesmoke;
     width: 20px;
     height: 20px;
-    border: solid 2px black;
+    border: 1px solid rgb(74, 72, 72);
     border-radius: 50%;
-    right: 20px;
-
+    top: 2px;
+    right: 22px;
     transition-property: right;
     transition-duration: 0.5s;
 }
@@ -80,7 +82,7 @@ input[type="checkbox"] {
 }
 
 .section1 > ul > li > input[type="checkbox"]:checked ~ div > label {
-    background-color: #05ff65;
+    background-color: rgb(74, 72, 72);
 }
 
 .section1 > ul > li > input[type="checkbox"]:checked ~ div > label > div {

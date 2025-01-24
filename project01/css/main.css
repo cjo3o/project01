@@ -1,8 +1,13 @@
+body {
+    background-color: #ccc;
+}
+
 .container {
     width: 393px;
     height: 852px;
-    background-color: #ffecec;
+    background-color: #fff;
     margin: auto;
+    position: relative;
 }
 
 .nav {
@@ -19,7 +24,6 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    width: 366px;
 }
 
 .menu,
